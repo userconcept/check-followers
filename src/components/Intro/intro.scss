@@ -1,0 +1,13 @@
+.intro {
+    padding: rem(16) rem(16) rem(32);
+    background-color: $color_darkblue;
+
+    &__title {
+        margin: 0;
+    }
+
+    &__text {
+        max-width: rem(300);
+        margin: rem(12) 0 0;
+    }
+}

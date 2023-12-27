@@ -1,0 +1,17 @@
+.users {
+    padding: rem(16) rem(16) rem(32);
+
+    &__title {
+        margin: 0;
+    }
+
+    &__tabs-header {
+        display: flex;
+        flex-wrap: wrap;
+        margin: rem(12) rem(-8) 0;
+    }
+
+    &__tabs-body {
+        margin: rem(16) 0 0;
+    }
+}

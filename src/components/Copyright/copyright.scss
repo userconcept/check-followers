@@ -1,0 +1,17 @@
+.copyright {
+    display: flex;
+
+    &__symbol,
+    &__year {
+        padding: rem(16) 0;
+    }
+
+    &__link {
+        padding: rem(16);
+        color: $color_white;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

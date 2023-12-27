@@ -1,0 +1,13 @@
+.tabs-body {
+    padding: 0;
+    list-style: none;
+
+    &__tabs-item {
+        margin: 0;
+        display: none;
+
+        &_active {
+            display: block;
+        }
+    }
+}

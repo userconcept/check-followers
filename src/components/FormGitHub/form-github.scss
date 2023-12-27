@@ -1,0 +1,14 @@
+.form-github {
+
+    &__button {
+        display: inline-block;
+        vertical-align: top;
+        margin: rem(16) 0 0;
+        cursor: pointer;
+    }
+
+    &__form-loader,
+    &__form-error {
+        margin-top: rem(8);
+    }
+}

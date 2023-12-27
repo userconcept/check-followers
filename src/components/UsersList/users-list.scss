@@ -1,0 +1,12 @@
+.users-list {
+    padding: 0;
+    list-style: none;
+
+    &__users-item {
+        margin: 0;
+
+        & + .users-list__users-item {
+            margin-top: rem(12);
+        }
+    }
+}

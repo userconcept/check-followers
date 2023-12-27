@@ -1,0 +1,16 @@
+// Mixins:
+
+// Rems:
+
+@function rem($num) {
+    $strip-unit: calc($num / ($num * 0 + 1));
+    @return calc($strip-unit / 16 * 1rem);
+}
+
+// Media:
+
+@mixin screen_1600_min_width {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}

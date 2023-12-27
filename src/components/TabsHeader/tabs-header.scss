@@ -1,0 +1,28 @@
+.tabs-header {
+    padding: 0;
+    list-style: none;
+
+    &__item {
+        margin: rem(8);
+        padding: 0;
+
+        &_active {
+
+            & .tabs-header__link {
+                background-color: $color_white;
+                color: $color_purple;
+            }
+        }
+    }
+
+    &__link {
+        display: inline-block;
+        vertical-align: top;
+        padding: rem(11) rem(14);
+        border: rem(1) solid $color_white;
+        outline: none;
+        background-color: transparent;
+        color: $color_white;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "name": "check-followers",
+    "short_name": "check-followers",
+    "description": "Shows users you are following, but who are not following you and reverse (JavaScript, React, Redux, REST API).",
+    "display": "minimal-ui",
+    "start_url": "/check-followers",
+    "id": "/check-followers",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "icons": [
+        {
+            "src": "/check-followers/favicon-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any"
+        },
+        {
+            "src": "/check-followers/favicon-192_maskable.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/check-followers/favicon-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        },
+        {
+            "src": "/check-followers/favicon-512_maskable.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ]
+}

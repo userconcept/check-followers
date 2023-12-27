@@ -1,0 +1,20 @@
+.nav-item {
+    padding: 0;
+
+    &_active {
+
+        & .nav-item__link {
+            color: $color_red;
+        }
+    }
+
+    &__link {
+        display: block;
+        padding: rem(12) rem(16);
+        color: $color_white;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+// Common styles of the project:
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+html {
+    font-size: 100%;
+    text-size-adjust: none;
+
+    @include screen_1600_min_width {
+        font-size: 1vw;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: rem(16);
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: $font_normal;
+    color: $color_white;
+    text-rendering: optimizeLegibility;
+}
+
+// Footer to bottom:
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100svh;
+    background-color: $color_purple;
+}
+
+#root > footer {
+    margin-top: auto;
+}
